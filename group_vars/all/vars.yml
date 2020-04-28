@@ -1,0 +1,6 @@
+Stack.Name: proxy-resources
+Stack.Template: templates/proxy.yml.j2
+
+Stack.Inputs:
+  ApplicationDesiredCount: 1
+  ProxyImageTag: latest

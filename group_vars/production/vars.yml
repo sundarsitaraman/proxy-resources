@@ -1,0 +1,11 @@
+Sts.Role: arn:aws:iam::470132768494:role/admin
+
+Stack.Inputs.VpcName: Default
+
+Stack.Inputs.ApplicationDesiredCount: 2
+Stack.Inputs.ApplicationImageId: ami-053deeb2737936fe0
+Stack.Inputs.ApplicationInstanceType: t2.micro
+Stack.Inputs.KeyName: docker-production-aws-msitara41
+
+Stack.Inputs.ProxyImage: 470132768494.dkr.ecr.us-east-2.amazonaws.com/dockerproductionawsmsitara41/squid
+Stack.Inputs.ProxyWhitelist: .dockerproductionawsmsitara41.org

@@ -1,0 +1,4 @@
+
+
+[production]
+production ansible_connection=local
